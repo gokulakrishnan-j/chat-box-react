@@ -71,7 +71,7 @@ function Signin() {
          /* type attribute is use to tell what kind of type. */
         type="text"
          /* placeholder attribute  */
-        placeholder='Username'
+        placeholder='Email'
         className='inputForSignupAndSignin'/>
         {/* condition rendering - validating if touched.username and errors.username become true it will show error validation */}
 <div className='notFillError'>{touched.username && errors.username ? errors.username:null}</div>
