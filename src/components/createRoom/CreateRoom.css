@@ -1,0 +1,111 @@
+.createRoomBox{
+    background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.createRoomInput{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.roomId{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    width: 20vw;
+    margin: auto;
+    background-color: rgba(58, 56, 56, 0.438);
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+
+}
+.copy{
+    border: 2px solid rgba(255, 255, 255, 0.418);
+    padding: 5px;
+    cursor:pointer;
+    border-radius: 6px;
+    font-size: medium;
+}
+.roomIdName{
+    font-size: x-large;
+}
+.createRoomButton{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    margin: 8px;
+    border-radius: 8px;
+    border-color: rgba(240, 248, 255, 0);
+}
+.createRoomButton:hover{
+
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.795),rgba(128, 128, 128, 0.842));
+    
+}
+.name{
+background-color: rgba(0, 0, 0, 0.062);
+padding: 8px;
+letter-spacing: 4px;
+font-weight: bold;
+}
+.createRoomBackButton{
+    background-color: azure;
+    border-radius: 9px;
+    border-color: rgba(240, 248, 255, 0);
+    font-weight: 600;
+}
+.createRoomBackButton:hover{
+    background-color: bisque;
+}
+
+@media(max-width:660px){
+    .roomIdName{
+        font-size: large;
+        margin-right: 0%;
+    }
+    .copy{
+        padding: 3px;
+        text-align: center;
+        margin-left: 0%;
+    }
+    .roomId{
+        width: 30vw;
+        padding-left: 8px;
+    
+    }
+}
+
+@media(max-width:550px){
+    .createRoomBox{
+        width: 70vw;
+    }
+    
+}
+
+@media(max-width:390px){
+    .roomIdName{
+        font-size: medium;
+    }
+    .copy{
+       
+    }
+    .roomId{
+        width: 50vw;
+        padding-left: 8px;
+    
+    }
+}
+
+@media(max-width:350px){
+   
+    .createRoomBox{
+        width: 90vw;
+    }
+    
+}

@@ -1,0 +1,112 @@
+.chat{
+    background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
+    width: 50vw;
+    height: 93vh;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.chatBox{
+    height: 65vh;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+.chatBox::-webkit-scrollbar{
+    display: none;
+}
+.myChat{
+    max-width: 200px;
+    margin-left: auto;
+    background-color: aliceblue;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+ 
+}
+.otherChat{
+    max-width: 200px;
+    margin-right: auto;
+    background-color: antiquewhite;
+    padding: 12px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+}
+.nameOfChat{
+    margin-right: 150px;
+    font-size: smaller;
+    color: rgb(77, 77, 77);
+    
+}
+.msgOfPerson{
+    font-weight: 500;
+}
+.inputForChat{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+    width: 40vw;
+}
+
+.sendButton{
+    color: chartreuse;
+  margin-left: 20px;
+
+}
+.leaveRoom{
+    background-color: burlywood;
+    border-color: rgba(250, 235, 215, 0);
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.leaveRoom:hover{
+    background-color: rgb(219, 101, 22);
+    color: white;
+}
+.roomName{
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: chocolate;
+    padding: 8px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    font-weight: bold;
+    color: aliceblue;
+}
+.createdBy{
+    color: rgb(119, 119, 119);
+    margin: 0px;
+}
+@media(max-width:750px){
+    .chat{
+        width: 90vw;
+    }
+    
+}
+@media(max-width:450px){
+    .myChat{
+        max-width: 150px;
+        
+     
+    }
+    .otherChat{
+        max-width: 150px;
+       
+       
+    }
+    
+}
+
+@media(max-width:330px){
+    .inputForChat{
+        width: 150px;
+    }
+    
+}

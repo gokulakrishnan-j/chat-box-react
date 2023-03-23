@@ -1,0 +1,75 @@
+.home{
+    background: linear-gradient(white,rgba(9, 56, 187, 0.753));
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.userNmae{
+    font-weight: bold;
+}
+.logout{
+    border-top-right-radius:20px;
+    border-bottom-right-radius: 20px;
+    border-color: rgba(240, 248, 255, 0);
+    background-color: rgb(231, 173, 97);
+    margin: 5px;
+    font-weight: bold;
+}
+.logout:hover{
+    background-color: rgb(134, 64, 64);
+    color: aliceblue;
+}
+.userName{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.createAndJoinRoomBox{
+    margin: 20px;
+}
+.createRoom{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 8px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.createRoom:hover{
+    background: linear-gradient(to right,rgb(255, 255, 255),rgba(255, 238, 0, 0.616));
+}
+.joinRoom{
+    background-color: rgb(255, 255, 255);
+    padding: 8px;
+    border-radius: 8px;
+    cursor:pointer;
+    font-weight: bold;
+}
+.joinRoom:hover{
+    background: linear-gradient(to right,rgb(255, 255, 255),rgba(30, 255, 0, 0.616));
+}
+.homeBackButton{
+    background-color: azure;
+    border-radius: 9px;
+    border-color: rgba(240, 248, 255, 0);
+    font-weight: 600;
+}
+.homeBackButton:hover{
+    background-color: bisque;
+}
+
+@media(max-width:550px){
+    .home{
+        width: 70vw;
+    }
+    .userNmae{
+        font-weight: 600;
+    }
+}
+@media(max-width:350px){
+    .home{
+        width: 90vw;
+    }
+}

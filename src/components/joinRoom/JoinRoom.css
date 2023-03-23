@@ -1,0 +1,50 @@
+.joinRoomBox{
+    background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.joinRoomInput{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+    margin-bottom: 16px;
+}
+.joinRoomButton{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    margin: 8px;
+    border-radius: 8px;
+    border-color: rgba(240, 248, 255, 0);
+}
+.joinRoomButton:hover{
+
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.795),rgba(128, 128, 128, 0.842));
+    
+}
+.joinRoomBackButton{
+    background-color: azure;
+    border-radius: 9px;
+    border-color: rgba(240, 248, 255, 0);
+    font-weight: 600;
+}
+.joinRoomBackButton:hover{
+    background-color: bisque;
+}
+
+@media(max-width:550px){
+    .joinRoomBox{
+        width: 70vw;
+    }
+    
+}
+
+@media(max-width:350px){
+   
+    .joinRoomBox{
+        width: 90vw;
+    }
+    
+}

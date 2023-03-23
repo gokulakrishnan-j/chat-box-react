@@ -1,0 +1,53 @@
+.signup{
+    background:linear-gradient(rgba(159, 255, 234, 0.699),rgba(235, 116, 5, 0.39));
+    width: 50vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding: 8px;
+}
+.inputForSignupAndSignin{
+    border-radius: 5px;
+    padding: 5px;
+    border-color: rgb(255, 255, 255);
+}
+.notFillError{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+.sigupButton{
+    margin: 8px;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    color: beige;
+    border-color: rgba(109, 124, 41, 0);
+}
+.sigupButton:hover{
+    background-color: rgb(73, 230, 11);
+    color: black;
+}
+.havingAcc{
+    color: rgb(65, 252, 9);
+    font-size: large;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: rgba(0, 0, 0, 0.342);
+    padding: 4px;
+    border-radius: 4px
+}
+.havingAcc:hover{
+   
+    color: rgb(6, 247, 255);
+    
+}
+
+@media(max-width:550px){
+    .signup{
+        width: 70vw;
+    }
+}
+@media(max-width:350px){
+    .signup{
+        width: 90vw;
+    }
+}
