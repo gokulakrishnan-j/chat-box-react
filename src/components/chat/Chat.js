@@ -21,12 +21,7 @@ function Chat({socket,roomName,room,admin,name}) {
  
   },[socket])
 
-  if(admin){
-    localStorage.setItem("admin",admin)
-  }
-  if(roomName){
-    localStorage.setItem("roomName",roomName)
-  }
+  
 
   async function chats(){
 
@@ -55,22 +50,18 @@ function Chat({socket,roomName,room,admin,name}) {
         },[newChat])
 
 const leaveRoom =()=>{
-  if(admin){
-    localStorage.removeItem("roomName")
-    localStorage.removeItem("admin")
-  }
   navigate(`/user/${username}`)
 }
       
   return (
     <div className='chat'>
-      <p className='roomName'> {localStorage.getItem("roomName")?localStorage.getItem("roomName"):null}</p>
+      
       
       <div>
         <button className='leaveRoom' onClick={()=>leaveRoom()}>Leave Room <MeetingRoomIcon/></button>
        </div>
     <div className='chatBox'>
-    <p className='createdBy'>Group created by {localStorage.getItem("admin")?localStorage.getItem("admin"):null}</p>
+    
       {newChat.map((msg,index)=>(msg.username === username?
         <p className='myChat' key={index}>
           
