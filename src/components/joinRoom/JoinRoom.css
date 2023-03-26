@@ -2,7 +2,8 @@
     background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
     width: 50vw;
     margin: auto;
-    margin-top: 40px;
+   position: relative;
+   top: 100px;
     border-radius: 12px;
     padding: 8px;
 }
@@ -36,15 +37,7 @@
 
 @media(max-width:550px){
     .joinRoomBox{
-        width: 70vw;
-    }
-    
-}
-
-@media(max-width:350px){
-   
-    .joinRoomBox{
-        width: 90vw;
+        width: 98vw;
     }
     
 }
