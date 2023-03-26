@@ -1,8 +1,9 @@
 .signup{
-    background:linear-gradient(rgba(159, 255, 234, 0.699),rgba(235, 116, 5, 0.39));
+    background:linear-gradient(rgba(159, 255, 234, 0.767),rgba(235, 116, 5, 0.479));
     width: 50vw;
     margin: auto;
-    margin-top: 40px;
+    position: relative;
+    top:140px;
     border-radius: 12px;
     padding: 8px;
 }
@@ -43,11 +44,6 @@
 
 @media(max-width:550px){
     .signup{
-        width: 70vw;
-    }
-}
-@media(max-width:350px){
-    .signup{
-        width: 90vw;
+        width: 98vw;
     }
 }
