@@ -1,9 +1,10 @@
 .chat{
     background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
     width: 50vw;
-    height: 90vh;
+    height: 93vh;
     margin: auto;
-    margin-top: 40px;
+    position: relative;
+    top: 35px;
     border-radius: 12px;
     padding: 8px;
 }
@@ -86,7 +87,13 @@
 }
 @media(max-width:750px){
     .chat{
-        width: 90vw;
+        width: 100vw;
+        top: 0px;
+        height: 100vh;
+        border-radius: 0%;
+    }
+    .inputForChat{
+        width: 80%
     }
     
 }
@@ -104,9 +111,4 @@
     
 }
 
-@media(max-width:330px){
-    .inputForChat{
-        width: 150px;
-    }
-    
-}
+
