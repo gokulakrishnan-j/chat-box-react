@@ -2,7 +2,8 @@
     background: linear-gradient(rgb(255, 255, 255),rgba(116, 116, 116, 0.753));
     width: 50vw;
     margin: auto;
-    margin-top: 40px;
+    position: relative;
+    top: 100px;
     border-radius: 12px;
     padding: 8px;
 }
@@ -83,7 +84,7 @@ font-weight: bold;
 
 @media(max-width:550px){
     .createRoomBox{
-        width: 70vw;
+        width: 98vw;
     }
     
 }
@@ -92,9 +93,7 @@ font-weight: bold;
     .roomIdName{
         font-size: medium;
     }
-    .copy{
-       
-    }
+  
     .roomId{
         width: 50vw;
         padding-left: 8px;
@@ -102,10 +101,3 @@ font-weight: bold;
     }
 }
 
-@media(max-width:350px){
-   
-    .createRoomBox{
-        width: 90vw;
-    }
-    
-}
