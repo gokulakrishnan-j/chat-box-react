@@ -26,6 +26,8 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    word-wrap: break-word;
+    text-align: left;
  
 }
 .otherChat{
@@ -36,6 +38,8 @@
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+    word-wrap: break-word;
+    text-align: left;
    
 }
 .nameOfChat{
